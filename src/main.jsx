@@ -11,6 +11,7 @@ import Banner from './Components/Banner.jsx';
 import LogIn1 from './Components/LogIn1.jsx';
 import LogIn2 from './Components/Login2.jsx';
 import LogIn3 from './Components/Login3.jsx'; 
+import PropsContext from './Components/ContextAPI/PropsContext.jsx';
 
 const router = createBrowserRouter([
 {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
     {
       path: "/log3",
       element: <LogIn3></LogIn3>,
+    },
+    {
+      path: "/context",
+      element: <PropsContext></PropsContext>,
     },
   ]
 }

@@ -8,7 +8,7 @@ const Banner = () => {
             <div className="hero-content text-center text-neutral-content">
                 <div className="max-w-md">
                     <h1 className="mb-5  text-5xl font-bold">Well Come <br /> To React <span className="">Router</span> Project</h1>
-                    <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                    <p className="mb-5"> Advance Topic React Hook Form এর ব্যবহার সম্পর্কে বিস্তারিত জানতে পারেন Google Theke</p>
                     <button className="btn btn-primary">Get Started</button>
                 </div>
             </div>

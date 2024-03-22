@@ -7,7 +7,7 @@ import './navbar.css';
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-base-100 ">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -29,6 +29,7 @@ const Navbar = () => {
               <NavLink to={'/log1'}>Login 1</NavLink>
               <NavLink to={'/log2'}>Login 1</NavLink>
               <NavLink to={'/log3'}>Login 3</NavLink>
+              <NavLink to={'/context'}>PropsContext</NavLink>
       
           </ul>
         </div>
